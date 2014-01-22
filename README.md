@@ -1,6 +1,8 @@
 # Congress Database 1 From Csv To Sqlite With Ruby 
- 
 ##Learning Competencies 
+
+* Use sqlite gem to create a database using Ruby commands
+* Use sqlite gem to perform CRUD operations on tables in a database using Ruby commands
 
 ##Summary 
 
@@ -12,9 +14,9 @@ The Sunlight Labs database has already been copied and formatted as a CSV file a
 
 Sunlight labs also provides a bunch of great Ruby gems for accessing political info!  We'll be getting more into their gems later.  Here's an [article](http://tpmdc.talkingpointsmemo.com/2012/05/congress-speaking-grade-level.php) that's based on the database we'll be using!
 
-## Objectives
+##Releases
 
-### Import the database with Ruby
+###Release 0 : Import the database with Ruby
 
 Download the CSV file and save it locally.  Create a Ruby script to parse the CSV file and create an SQLite database containing the CSV file's columns and rows.  
 
@@ -44,7 +46,7 @@ Now let's move on to INSERT and UPDATE and DELETE:
 2. Copy the information for Dianne Feinstein and add that data as if it was his.  (She's one of our California senators!)
 3. Now let's delete Dianne's entry so nobody sees anything fishy with three senators from California.
 
-### Running SQL statements from Ruby
+###Release 1 : Running SQL statements from Ruby
 
 Now that we know our database is sound, we will use Ruby to create methods that run SQL commands.  
 
@@ -103,7 +105,7 @@ politician.save</pre>
 Write out driver code with expectations (where feasible) that cover each of the calls included under "Rubyland."  Make sure each class and instance method works!
 
 
-### Oratory skills
+###Release 2 : Oratory skills
 
 Now, you're really moving.   Build and run queries to answer these questions (first test these in Sqlite and then create methods in Ruby): 
 
@@ -117,9 +119,7 @@ Use the column that has data since 1996.  Neatly print their names, state, Repub
 
 Upload your ruby code and the results of these questions into your gist. 
 
-##Releases
-###Release 0 
 
-##Optimize Your Learning 
+<!-- ##Optimize Your Learning  -->
 
 ##Resources
