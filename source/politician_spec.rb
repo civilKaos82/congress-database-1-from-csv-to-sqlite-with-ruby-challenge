@@ -1,6 +1,6 @@
 require_relative 'politician.rb'
 
-describe Politician
+describe Politician do
 
   before :each do
     #You will need to BEGIN a new transaction here
